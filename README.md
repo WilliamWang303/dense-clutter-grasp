@@ -12,11 +12,11 @@ The system consisting of a six-axis robot arm with two-jaw parallel gripper and 
 <p1 align = "center">
     <img src="images/demo.gif" width="600" height="338">
 </p1>
-<figcaption align = "center">Demonstration of the hand-eye system and the algorithm</figcaption>
+Demonstration of the hand-eye system and the algorithm
 <p2 align = "center">
     <img src="images/demo_ext.gif" width="600" height="338">
 </p2>
-<figcaption align = "center">Demonstration of two types of grasping methods</figcaption>
+Demonstration of two types of grasping methods
 
 For more information about our approach, please check out our [summary video](https://youtu.be/Xo3BYjhgWlg) and our paper:
 
