@@ -10,8 +10,10 @@ This repository contains an implementation of our proposed algorithm for grasp d
 The system consisting of a six-axis robot arm with two-jaw parallel gripper and Kinect V2 RGB-D camera is used to evaluate the success rate for grasping in dense clutter. The grasping results on cluttered metal parts show that the success rate is about 94%.
 
 ![demo](images/demo.gif)
+
 *Demonstration of the hand-eye system and the algorithm*
 ![demo_ext](images/demo_ext.gif)
+
 *Demonstration of two types of grasping methods*
 
 For more information about our approach, please check out our [summary video](https://youtu.be/Xo3BYjhgWlg) and our paper:
