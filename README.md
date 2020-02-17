@@ -56,7 +56,7 @@ config.yaml contains some parameters than can be adjusted.
 The code for Mask R-CNN is based on [repository](https://github.com/matterport/Mask_RCNN) implemented by matterport.
 
 ### Dataset
-The annotated dataset is provided at [here](https://drive.google.com/drive/folders/1BXdSlEGf4vv-rUGe0l05_tXoTxrMbwU1?usp=sharing)
+The annotated dataset is provided at [here](https://drive.google.com/drive/folders/1BXdSlEGf4vv-rUGe0l05_tXoTxrMbwU1?usp=sharing).
 We improve the data-collecting and labeling process. The details are shown in following figure and our paper.
 ![](images/mask-rcnn_data.png)
 
