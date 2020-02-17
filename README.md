@@ -3,8 +3,8 @@
 ## Overview
 This repository contains an implementation of our proposed algorithm for grasp detection in dense clutter. The algorithm consists of three steps: instance segmentation, view-based experience transfer and optimal grasp determination.
 
-* Instance Segmentation - [Mask R-CNN](#mask-rcnn) is adopted to segment easy-to-grasp objects from a clutter scene. 
-* View-based Experience Transfer - [Denoise Autoencoder](#denoise_ae) is used to estimate corresponding view of each segmented object. Then, grasp experiences can be transfered onto a clutter scene.
+* [Instance Segmentation](#instance-segmentation) - Mask R-CNN is adopted to segment easy-to-grasp objects from a clutter scene.
+* [View-based Experience Transfer](view-based-exp-transfer) - Denoise Autoencoder is used to estimate corresponding view of each segmented object. Then, grasp experiences can be transfered onto a clutter scene.
 
 The system consisting of a six-axis robot arm with two-jaw parallel gripper and Kinect V2 RGB-D camera is used to evaluate the success rate for grasping in dense clutter. The grasping results on cluttered metal parts show that the success rate is about 94%.
 
@@ -52,7 +52,7 @@ Testing results will be saved at test_images.
 
 config.yaml contains some parameters than can be adjusted.
 
-## Mask R-CNN
+## Instance Segmentation
 Mask R-CNN is based on [repository](https://github.com/matterport/Mask_RCNN) implemented by matterport.
 
 ### Dataset
@@ -69,7 +69,7 @@ To prevent over-fitting, the revisions are:
 ### Evaluation
 The results of mAP for RGB and RGB-D image as two types of inputs are respectively, 0.901 and 0.924.
 
-## Denoise Autoencoder
+## View-based Experience Transfer
 Denoise Autoencoder is based on [repository](https://github.com/DLR-RM/AugmentedAutoencoder) implemented by DLR-RM.
 To estimate views more correctly, we redefine the loss function as L2 loss plus perceptual loss. The details are shown in following figure and our paper.
 ![](images/ae.png)
