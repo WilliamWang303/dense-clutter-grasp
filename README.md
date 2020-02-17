@@ -53,7 +53,7 @@ Testing results will be saved at test_images.
 config.yaml contains some parameters than can be adjusted.
 
 ## Mask R-CNN
-Mask R-CNN is based on [repository](https://github.com/matterport/Mask_RCNN) implemented by matterport.
+The code for Mask R-CNN is based on [repository](https://github.com/matterport/Mask_RCNN) implemented by matterport.
 
 ### Dataset
 The annotated dataset is provided at [here](https://drive.google.com/drive/folders/1BXdSlEGf4vv-rUGe0l05_tXoTxrMbwU1?usp=sharing)
@@ -62,15 +62,15 @@ We improve the data-collecting and labeling process. The details are shown in fo
 
 ### Train
 To prevent over-fitting, the revisions are:
-* Used pre-trained ResNet-50 as backbone
-* Fine-tuned parameters not in the backbone
-* Reduced types of anchors from 5 to 3
+* Use pre-trained ResNet-50 as backbone
+* Fine-tune parameters not in the backbone
+* Reduce types of anchors from 5 to 3
 
 ### Evaluation
 The results of mAP for RGB and RGB-D image as two types of inputs are respectively, 0.901 and 0.924.
 
 ## Denoise Autoencoder
-Denoise Autoencoder is based on [repository](https://github.com/DLR-RM/AugmentedAutoencoder) implemented by DLR-RM.
+The code for Denoise Autoencoder is based on [repository](https://github.com/DLR-RM/AugmentedAutoencoder) implemented by DLR-RM.
 To estimate views more correctly, we redefine the loss function as L2 loss plus perceptual loss. The details are shown in following figure and our paper.
 ![](images/ae.png)
 
@@ -80,7 +80,7 @@ The object views and their corresponding grasp experiences are provided at [here
 ### Train
 1. Download pre-trained vgg-16 model at [here](https://drive.google.com/file/d/1sPQPy8hudhlaVKGl4awWb60ydJmk-SP-/view?usp=sharing) and put the model to the [directory](https://github.com/DLR-RM/AugmentedAutoencoder/tree/master/auto_pose/ae).
 2. Put our provided files in denoise_ae folder to the same directory.
-3. Start training with the same process.
+3. Start training with the same process explained in the [repository](https://github.com/DLR-RM/AugmentedAutoencoder).
 
 ### Evaluation
 The recall of pose estimation on T-LESS dataset is about 50.31.
