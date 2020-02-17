@@ -41,7 +41,7 @@ There are two pre-trained models:
 * Denoise Autoencoder is included in three files named as chkpt-80000.
 
 ### Evaluation
-Testing images are provided at [test_images](./test_images).
+Testing images are provided at [test_images](https://github.com/WilliamWang303/dense-clutter-grasp/tree/master/algorithm/test_images).
 Run our code on testing images:
 ```bash
 python detection_algorithm.py --rgb=./test_images/rgb.png --depth=./test_images/depth.png
