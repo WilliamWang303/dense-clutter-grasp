@@ -47,9 +47,9 @@ Run our code on testing images:
 python detection_algorithm.py --rgb=./test_images/rgb.png --depth=./test_images/depth.png
 ```
 Testing results will be saved at test_images.
-| Segmentation | Collision-Free Grasp | Optimal Grasp |
-:-------------------------:|:-------------------------:|:-------------------------:
-![](images/segmentation.png) | ![](images/collision_free.png) | ![](images/optimal_grasp.png)
+| Clutter Scene | Segmentation | Collision-Free Grasp | Optimal Grasp |
+:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
+![](images/input_image_crop.png) | ![](images/segmentation.png) | ![](images/collision_free.png) | ![](images/optimal_grasp.png)
 
 ## Instance Segmentation
 
