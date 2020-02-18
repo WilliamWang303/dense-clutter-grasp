@@ -17,7 +17,7 @@ The system consisting of a six-axis robot arm with two-jaw parallel gripper and 
     <img src="images/demo_ext.gif" width="600" height="338">
 </p>
 
-For more information about our approach, please check out our [summary video](https://youtu.be/Xo3BYjhgWlg) and our paper:
+For more information about our approach, please check out our [summary video](https://youtu.be/i8ger_D_swk) and our paper:
 
 ### Robot Grasping in Dense Clutter via View-Based Experience Transfer
 Jen-Wei Wang and Jyh-Jone Lee
